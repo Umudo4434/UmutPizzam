@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="UmutPizzamModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="UmutPizzamEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Admins" EntityType="UmutPizzamModel.Admin" />
+    <EntitySet Name="Kategorilers" EntityType="UmutPizzamModel.Kategoriler" />
+    <EntitySet Name="Menulers" EntityType="UmutPizzamModel.Menuler" />
+    <EntitySet Name="Yorumlars" EntityType="UmutPizzamModel.Yorumlar" />
+    <AssociationSet Name="FK__Menuler__Kategor__398D8EEE" Association="UmutPizzamModel.FK__Menuler__Kategor__398D8EEE">
+      <End Role="Kategoriler" EntitySet="Kategorilers" />
+      <End Role="Menuler" EntitySet="Menulers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Yorumlar__MenuId__3C69FB99" Association="UmutPizzamModel.FK__Yorumlar__MenuId__3C69FB99">
+      <End Role="Menuler" EntitySet="Menulers" />
+      <End Role="Yorumlar" EntitySet="Yorumlars" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Admin">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KullaniciAdi" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Sifre" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Kategoriler">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Ad" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Aktif" Type="Boolean" />
+    <NavigationProperty Name="Menulers" Relationship="UmutPizzamModel.FK__Menuler__Kategor__398D8EEE" FromRole="Kategoriler" ToRole="Menuler" />
+  </EntityType>
+  <EntityType Name="Menuler">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Ad" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Aciklama" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Fiyat" Type="Decimal" Nullable="false" Precision="5" Scale="2" />
+    <Property Name="ResimUrl" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="KategoriId" Type="Int32" Nullable="false" />
+    <Property Name="AktifMi" Type="Boolean" />
+    <Property Name="OlusturulmaTarihi" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Kategoriler" Relationship="UmutPizzamModel.FK__Menuler__Kategor__398D8EEE" FromRole="Menuler" ToRole="Kategoriler" />
+    <NavigationProperty Name="Yorumlars" Relationship="UmutPizzamModel.FK__Yorumlar__MenuId__3C69FB99" FromRole="Menuler" ToRole="Yorumlar" />
+  </EntityType>
+  <EntityType Name="Yorumlar">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MenuId" Type="Int32" Nullable="false" />
+    <Property Name="KullaniciAdi" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Icerik" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="YorumTarihi" Type="DateTime" Precision="3" />
+    <Property Name="Aktif" Type="Boolean" />
+    <NavigationProperty Name="Menuler" Relationship="UmutPizzamModel.FK__Yorumlar__MenuId__3C69FB99" FromRole="Yorumlar" ToRole="Menuler" />
+  </EntityType>
+  <Association Name="FK__Menuler__Kategor__398D8EEE">
+    <End Type="UmutPizzamModel.Kategoriler" Role="Kategoriler" Multiplicity="1" />
+    <End Type="UmutPizzamModel.Menuler" Role="Menuler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kategoriler">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Menuler">
+        <PropertyRef Name="KategoriId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Yorumlar__MenuId__3C69FB99">
+    <End Type="UmutPizzamModel.Menuler" Role="Menuler" Multiplicity="1" />
+    <End Type="UmutPizzamModel.Yorumlar" Role="Yorumlar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Menuler">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Yorumlar">
+        <PropertyRef Name="MenuId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

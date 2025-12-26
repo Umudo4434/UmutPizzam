@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7e3dd16cb3ab4a74b47647c299271179" Name="Diagram1">
+        <EntityTypeShape EntityType="UmutPizzamModel.Admin" Width="1.5" PointX="7.625" PointY="1.625" />
+        <EntityTypeShape EntityType="UmutPizzamModel.Kategoriler" Width="1.5" PointX="0.75" PointY="1.5" />
+        <EntityTypeShape EntityType="UmutPizzamModel.Menuler" Width="1.5" PointX="3" PointY="1" />
+        <EntityTypeShape EntityType="UmutPizzamModel.Yorumlar" Width="1.5" PointX="5.25" PointY="1.125" />
+        <AssociationConnector Association="UmutPizzamModel.FK__Menuler__Kategor__398D8EEE" />
+        <AssociationConnector Association="UmutPizzamModel.FK__Yorumlar__MenuId__3C69FB99" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

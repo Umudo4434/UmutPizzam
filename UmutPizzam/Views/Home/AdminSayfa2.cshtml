@@ -1,0 +1,46 @@
+﻿@model UmutPizzam.DataModel.Class1
+@{
+    ViewBag.Title = "AdminSayfa2";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+@if (ViewBag.HataMesaji != null)
+{
+    <div class="w3-panel w3-red w3-round w3-padding">@ViewBag.HataMesaji</div>
+}
+
+<h2>Mevcut Yorumlar</h2>
+
+<table class="w3-table-all w3-hoverable w3-card-4" style="margin-top:20px;">
+    <thead>
+        <tr class="w3-teal">
+            <th>Menu Ad</th>
+            <th>Kullanici Adi</th>
+            <th>Email</th>
+            <th>Icerik</th>
+            <th>Yorum Tarihi</th>
+            <th>Islem</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Yorumlars.OrderByDescending(x => x.Id))
+        {
+            if (item.Aktif == true)
+            {
+                <tr>
+                    <td>@item.Menuler.Ad</td>
+                    <td>@item.KullaniciAdi</td>
+                    <td>@item.Email</td>
+                    <td>@item.Icerik</td>
+                    <td>@item.YorumTarihi</td>
+                    <td>
+                        <form action="/Home/AdminSayfa2" method="post" onsubmit="return confirm('Silmek istedigine emin misin?');">
+                            <input type="hidden" name="menuID" value="@item.Id" />
+                            <button type="submit" name="MenuSil" value="Sil" class="w3-button w3-red w3-small">Sil</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

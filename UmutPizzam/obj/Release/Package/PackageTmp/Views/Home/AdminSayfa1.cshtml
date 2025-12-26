@@ -1,0 +1,80 @@
+﻿@model UmutPizzam.DataModel.Class1
+@{
+    ViewBag.Title = "AdminSayfa1";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<div class="w3-container w3-margin-top w3-row">
+
+    <div class="w3-col m6 l6" style="padding-right: 10px;">
+        <form action="/Home/AdminSayfa1" method="post" class="w3-container w3-card-4 w3-padding w3-light-grey">
+            <label class="w3-text-teal"><b>Menu Ad</b></label>
+            <input class="w3-input w3-border w3-round" type="text" name="MenuAd" maxlength="100" required />
+
+            <label class="w3-text-teal w3-margin-top"><b>Aciklama</b></label>
+            <input class="w3-input w3-border w3-round" type="text" name="AciklaMenu" maxlength="500" required />
+
+            <label class="w3-text-teal w3-margin-top"><b>Fiyat (TL)</b></label>
+            <input class="w3-input w3-border w3-round" type="number" name="Fiyat" min="0" step="0.01" required />
+
+            <label class="w3-text-teal w3-margin-top"><b>Resim Linki</b></label>
+            <input class="w3-input w3-border w3-round" type="url" name="ResimL" maxlength="250" required />
+
+            <label class="w3-text-teal w3-margin-top"><b>Kategori</b></label>
+            <select class="w3-select w3-border w3-round" name="KategAdi" required>
+                <option value="" disabled selected>Kategori Seciniz</option>
+                @foreach (var item in Model.Kategorilers)
+                {
+                    if (item.Aktif == true)
+                    {
+                        <option>@item.Ad</option>
+                    }
+                }
+            </select>
+
+            <button type="submit" name="MenuEkle" value="Ekle" class="w3-button w3-teal w3-margin-top">Ekle</button>
+        </form>
+    </div>
+
+</div>
+
+<hr class="w3-margin-top w3-margin-bottom" />
+
+<h2>Mevcut Menuler</h2>
+<table class="w3-table-all w3-hoverable w3-card-4" style="margin-top:20px;">
+    <thead>
+        <tr class="w3-teal">
+            <th>Menu Ad</th>
+            <th>Aciklama</th>
+            <th>Fiyat</th>
+            <th>Resim</th>
+            <th>Kategori</th>
+            <th>Olusturulma</th>
+            <th>Islem</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Menulers.OrderByDescending(x => x.Id))
+        {
+            if (item.AktifMi == true)
+            {
+                <tr>
+                    <td>@item.Ad</td>
+                    <td>@item.Aciklama</td>
+                    <td>@item.Fiyat.ToString("0.00") TL</td>
+                    <td>
+                        <img src="@item.ResimUrl" alt="Resim" style="height: 60px; border-radius: 6px; object-fit: cover;" />
+                    </td>
+                    <td>@item.Kategoriler.Ad</td>
+                    <td>@item.OlusturulmaTarihi</td>
+                    <td>
+                        <form action="/Home/AdminSayfa1" method="post" onsubmit="return confirm('Silmek istedigine emin misin?');">
+                            <input type="hidden" name="menuID" value="@item.Id" />
+                            <input type="submit" name="MenuSil" value="Sil" class="w3-button w3-red w3-small" />
+                        </form>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

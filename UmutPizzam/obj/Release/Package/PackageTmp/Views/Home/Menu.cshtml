@@ -1,0 +1,204 @@
+﻿@model UmutPizzam.DataModel.Class1
+@{
+    ViewBag.Title = "Menu";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+    .menu {
+        padding: 50px 0;
+        background-color: #f9f9f9;
+    }
+
+        .menu .section-header p {
+            font-size: 18px;
+            color: #888;
+        }
+
+        .menu .section-header h2 {
+            font-size: 36px;
+            color: #333;
+            margin-top: 10px;
+        }
+
+        .menu .menu-tab .nav-pills .nav-item .nav-link {
+            background-color: #e0e0e0;
+            color: #333;
+            border-radius: 25px;
+            padding: 10px 20px;
+        }
+
+    .menu-item {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .menu-img img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        margin-right: 20px;
+    }
+
+    .menu-text h3 {
+        font-size: 20px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    .menu-text span {
+        font-size: 18px;
+        color: #888;
+    }
+
+    .menu-text strong {
+        color: #ff4d4d;
+        font-size: 18px;
+    }
+
+    .menu-text p {
+        color: #555;
+        margin-top: 5px;
+    }
+
+    .tab-content {
+        margin-top: 30px;
+    }
+
+    .nav-pills .nav-link.active {
+        background-color: orange !important;
+        color: white !important;
+    }
+
+    .menu-item {
+        transition: transform 0.3s ease;
+        cursor: pointer; /* İstersen fare imlecini pointer yapar */
+    }
+
+        .menu-item:hover {
+            transform: scale(1.05); /* %5 büyür, istersen artırabilirsin */
+            z-index: 10; /* Üstte görünmesi için */
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Gölge ekleyip öne çıkar */
+        }
+</style>
+
+<div class="menu">
+    <div class="container">
+        <div class="section-header text-center">
+            <h2>UmutPizzam Menuler</h2>
+        </div>
+        <div class="menu-tab">
+            <ul class="nav nav-pills justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" id="all-tab" data-bs-toggle="pill" href="#all">Hepsi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="pizza-tab" data-bs-toggle="pill" href="#pizza">Pizzalar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="drinks-tab" data-bs-toggle="pill" href="#drinks">Icecekler</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="extras-tab" data-bs-toggle="pill" href="#extras">Extralar</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div id="all" class="container tab-pane active">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            @foreach (var item in Model.Menulers)
+                            {
+                                if (item.AktifMi == true)
+                                {
+                                    <div class="menu-item">
+                                        <div class="menu-img">
+                                            <img src="@item.ResimUrl" alt="Pizza">
+                                        </div>
+                                        <div class="menu-text">
+                                            <h3><span>@item.Ad</span> <strong>@item.Fiyat TL</strong></h3>
+                                            <p>@item.Aciklama</p>
+                                        </div>
+                                    </div>
+                                }
+                            }
+                        </div>
+                    </div>
+                </div>
+
+                <div id="pizza" class="container tab-pane fade">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            @foreach (var item in Model.Menulers)
+                            {
+                                if (item.AktifMi == true)
+                                {
+                                    if (item.KategoriId == 1)
+                                    {
+                                        <div class="menu-item">
+                                            <div class="menu-img">
+                                                <img src="@item.ResimUrl" alt="Pizza">
+                                            </div>
+                                            <div class="menu-text">
+                                                <h3><span>@item.Ad</span> <strong>@item.Fiyat TL</strong></h3>
+                                                <p>@item.Aciklama</p>
+                                            </div>
+                                        </div>
+                                    }
+                                }
+                            }
+                        </div>
+                    </div>
+                </div>
+                <div id="drinks" class="container tab-pane fade">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            @foreach (var item in Model.Menulers)
+                            {
+                                if (item.AktifMi == true)
+                                {
+                                    if (item.KategoriId == 3)
+                                    {
+                                        <div class="menu-item">
+                                            <div class="menu-img">
+                                                <img src="@item.ResimUrl" alt="Pizza">
+                                            </div>
+                                            <div class="menu-text">
+                                                <h3><span>@item.Ad</span> <strong>@item.Fiyat TL</strong></h3>
+                                                <p>@item.Aciklama</p>
+                                            </div>
+                                        </div>
+                                    }
+                                }
+                            }
+                        </div>
+                    </div>
+                </div>
+                <div id="extras" class="container tab-pane fade">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            @foreach (var item in Model.Menulers)
+                            {
+                                if (item.AktifMi == true)
+                                {
+                                    if (item.KategoriId == 2)
+                                    {
+                                        <div class="menu-item">
+                                            <div class="menu-img">
+                                                <img src="@item.ResimUrl" alt="Pizza">
+                                            </div>
+                                            <div class="menu-text">
+                                                <h3><span>@item.Ad</span> <strong>@item.Fiyat TL</strong></h3>
+                                                <p>@item.Aciklama</p>
+                                            </div>
+                                        </div>
+                                    }
+                                }
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

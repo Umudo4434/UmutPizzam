@@ -1,0 +1,271 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8220F786-3DF3-4EB9-956D-8372AF4BCB8B}|UmutPizzam\\UmutPizzam.csproj|C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\umutpizzam\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8220F786-3DF3-4EB9-956D-8372AF4BCB8B}|UmutPizzam\\UmutPizzam.csproj|solutionrelative:umutpizzam\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8220F786-3DF3-4EB9-956D-8372AF4BCB8B}|UmutPizzam\\UmutPizzam.csproj|c:\\users\\umut bztp\\desktop\\yeni klas\u00F6r (2)\\umutpizzam\\umutpizzam\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8220F786-3DF3-4EB9-956D-8372AF4BCB8B}|UmutPizzam\\UmutPizzam.csproj|solutionrelative:umutpizzam\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8220F786-3DF3-4EB9-956D-8372AF4BCB8B}|UmutPizzam\\UmutPizzam.csproj|C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\umutpizzam\\views\\home\\adminsayfa2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8220F786-3DF3-4EB9-956D-8372AF4BCB8B}|UmutPizzam\\UmutPizzam.csproj|solutionrelative:umutpizzam\\views\\home\\adminsayfa2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8220F786-3DF3-4EB9-956D-8372AF4BCB8B}|UmutPizzam\\UmutPizzam.csproj|C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\umutpizzam\\views\\home\\adminsayfa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8220F786-3DF3-4EB9-956D-8372AF4BCB8B}|UmutPizzam\\UmutPizzam.csproj|solutionrelative:umutpizzam\\views\\home\\adminsayfa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8220F786-3DF3-4EB9-956D-8372AF4BCB8B}|UmutPizzam\\UmutPizzam.csproj|C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\umutpizzam\\views\\home\\adminsayfa1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8220F786-3DF3-4EB9-956D-8372AF4BCB8B}|UmutPizzam\\UmutPizzam.csproj|solutionrelative:umutpizzam\\views\\home\\adminsayfa1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8220F786-3DF3-4EB9-956D-8372AF4BCB8B}|UmutPizzam\\UmutPizzam.csproj|C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\umutpizzam\\views\\shared\\adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8220F786-3DF3-4EB9-956D-8372AF4BCB8B}|UmutPizzam\\UmutPizzam.csproj|solutionrelative:umutpizzam\\views\\shared\\adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8220F786-3DF3-4EB9-956D-8372AF4BCB8B}|UmutPizzam\\UmutPizzam.csproj|C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\umutpizzam\\views\\admin\\giris.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8220F786-3DF3-4EB9-956D-8372AF4BCB8B}|UmutPizzam\\UmutPizzam.csproj|solutionrelative:umutpizzam\\views\\admin\\giris.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8220F786-3DF3-4EB9-956D-8372AF4BCB8B}|UmutPizzam\\UmutPizzam.csproj|C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\umutpizzam\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8220F786-3DF3-4EB9-956D-8372AF4BCB8B}|UmutPizzam\\UmutPizzam.csproj|solutionrelative:umutpizzam\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8220F786-3DF3-4EB9-956D-8372AF4BCB8B}|UmutPizzam\\UmutPizzam.csproj|C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\umutpizzam\\views\\home\\hakkimizda.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8220F786-3DF3-4EB9-956D-8372AF4BCB8B}|UmutPizzam\\UmutPizzam.csproj|solutionrelative:umutpizzam\\views\\home\\hakkimizda.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8220F786-3DF3-4EB9-956D-8372AF4BCB8B}|UmutPizzam\\UmutPizzam.csproj|C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\umutpizzam\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8220F786-3DF3-4EB9-956D-8372AF4BCB8B}|UmutPizzam\\UmutPizzam.csproj|solutionrelative:umutpizzam\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8220F786-3DF3-4EB9-956D-8372AF4BCB8B}|UmutPizzam\\UmutPizzam.csproj|C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\umutpizzam\\views\\home\\anasayfa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8220F786-3DF3-4EB9-956D-8372AF4BCB8B}|UmutPizzam\\UmutPizzam.csproj|solutionrelative:umutpizzam\\views\\home\\anasayfa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8220F786-3DF3-4EB9-956D-8372AF4BCB8B}|UmutPizzam\\UmutPizzam.csproj|C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\umutpizzam\\views\\home\\yorumlar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8220F786-3DF3-4EB9-956D-8372AF4BCB8B}|UmutPizzam\\UmutPizzam.csproj|solutionrelative:umutpizzam\\views\\home\\yorumlar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8220F786-3DF3-4EB9-956D-8372AF4BCB8B}|UmutPizzam\\UmutPizzam.csproj|C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\umutpizzam\\views\\home\\iletisim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8220F786-3DF3-4EB9-956D-8372AF4BCB8B}|UmutPizzam\\UmutPizzam.csproj|solutionrelative:umutpizzam\\views\\home\\iletisim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8220F786-3DF3-4EB9-956D-8372AF4BCB8B}|UmutPizzam\\UmutPizzam.csproj|C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\umutpizzam\\views\\home\\menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8220F786-3DF3-4EB9-956D-8372AF4BCB8B}|UmutPizzam\\UmutPizzam.csproj|solutionrelative:umutpizzam\\views\\home\\menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8220F786-3DF3-4EB9-956D-8372AF4BCB8B}|UmutPizzam\\UmutPizzam.csproj|C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\umutpizzam\\datamodel\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8220F786-3DF3-4EB9-956D-8372AF4BCB8B}|UmutPizzam\\UmutPizzam.csproj|solutionrelative:umutpizzam\\datamodel\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\UmutPizzam\\Views\\Shared\\AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "UmutPizzam\\Views\\Shared\\AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\UmutPizzam\\Views\\Shared\\AdminLayout.cshtml",
+              "RelativeToolTip": "UmutPizzam\\Views\\Shared\\AdminLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T13:09:54.982Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminSayfa.cshtml",
+              "DocumentMoniker": "C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\UmutPizzam\\Views\\Home\\AdminSayfa.cshtml",
+              "RelativeDocumentMoniker": "UmutPizzam\\Views\\Home\\AdminSayfa.cshtml",
+              "ToolTip": "C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\UmutPizzam\\Views\\Home\\AdminSayfa.cshtml",
+              "RelativeToolTip": "UmutPizzam\\Views\\Home\\AdminSayfa.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T12:34:49.284Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminSayfa2.cshtml",
+              "DocumentMoniker": "C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\UmutPizzam\\Views\\Home\\AdminSayfa2.cshtml",
+              "RelativeDocumentMoniker": "UmutPizzam\\Views\\Home\\AdminSayfa2.cshtml",
+              "ToolTip": "C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\UmutPizzam\\Views\\Home\\AdminSayfa2.cshtml",
+              "RelativeToolTip": "UmutPizzam\\Views\\Home\\AdminSayfa2.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T19:37:51.712Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\UmutPizzam\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "UmutPizzam\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\UmutPizzam\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "UmutPizzam\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwBoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T12:34:00.431Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminSayfa1.cshtml",
+              "DocumentMoniker": "C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\UmutPizzam\\Views\\Home\\AdminSayfa1.cshtml",
+              "RelativeDocumentMoniker": "UmutPizzam\\Views\\Home\\AdminSayfa1.cshtml",
+              "ToolTip": "C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\UmutPizzam\\Views\\Home\\AdminSayfa1.cshtml",
+              "RelativeToolTip": "UmutPizzam\\Views\\Home\\AdminSayfa1.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T15:09:37.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Giris.cshtml",
+              "DocumentMoniker": "C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\UmutPizzam\\Views\\Admin\\Giris.cshtml",
+              "RelativeDocumentMoniker": "UmutPizzam\\Views\\Admin\\Giris.cshtml",
+              "ToolTip": "C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\UmutPizzam\\Views\\Admin\\Giris.cshtml",
+              "RelativeToolTip": "UmutPizzam\\Views\\Admin\\Giris.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAcwB8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T13:30:54.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\UmutPizzam\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "UmutPizzam\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\UmutPizzam\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "UmutPizzam\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T13:29:28.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Hakkimizda.cshtml",
+              "DocumentMoniker": "C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\UmutPizzam\\Views\\Home\\Hakkimizda.cshtml",
+              "RelativeDocumentMoniker": "UmutPizzam\\Views\\Home\\Hakkimizda.cshtml",
+              "ToolTip": "C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\UmutPizzam\\Views\\Home\\Hakkimizda.cshtml",
+              "RelativeToolTip": "UmutPizzam\\Views\\Home\\Hakkimizda.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T11:28:13.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\UmutPizzam\\Web.config",
+              "RelativeDocumentMoniker": "UmutPizzam\\Web.config",
+              "ToolTip": "C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\UmutPizzam\\Web.config",
+              "RelativeToolTip": "UmutPizzam\\Web.config",
+              "ViewState": "AgIAAB8AAAAAAAAAAADwvz4AAACUAgAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-12T20:56:31.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Anasayfa.cshtml",
+              "DocumentMoniker": "C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\UmutPizzam\\Views\\Home\\Anasayfa.cshtml",
+              "RelativeDocumentMoniker": "UmutPizzam\\Views\\Home\\Anasayfa.cshtml",
+              "ToolTip": "C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\UmutPizzam\\Views\\Home\\Anasayfa.cshtml",
+              "RelativeToolTip": "UmutPizzam\\Views\\Home\\Anasayfa.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T19:38:59.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Menu.cshtml",
+              "DocumentMoniker": "C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\UmutPizzam\\Views\\Home\\Menu.cshtml",
+              "RelativeDocumentMoniker": "UmutPizzam\\Views\\Home\\Menu.cshtml",
+              "ToolTip": "C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\UmutPizzam\\Views\\Home\\Menu.cshtml",
+              "RelativeToolTip": "UmutPizzam\\Views\\Home\\Menu.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T14:13:54.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\UmutPizzam\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "UmutPizzam\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\UmutPizzam\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "UmutPizzam\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T13:26:58.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\UmutPizzam\\DataModel\\Class1.cs",
+              "RelativeDocumentMoniker": "UmutPizzam\\DataModel\\Class1.cs",
+              "ToolTip": "C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\UmutPizzam\\DataModel\\Class1.cs",
+              "RelativeToolTip": "UmutPizzam\\DataModel\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T12:43:03.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Iletisim.cshtml",
+              "DocumentMoniker": "C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\UmutPizzam\\Views\\Home\\Iletisim.cshtml",
+              "RelativeDocumentMoniker": "UmutPizzam\\Views\\Home\\Iletisim.cshtml",
+              "ToolTip": "C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\UmutPizzam\\Views\\Home\\Iletisim.cshtml",
+              "RelativeToolTip": "UmutPizzam\\Views\\Home\\Iletisim.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T15:18:03.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Yorumlar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\UmutPizzam\\Views\\Home\\Yorumlar.cshtml",
+              "RelativeDocumentMoniker": "UmutPizzam\\Views\\Home\\Yorumlar.cshtml",
+              "ToolTip": "C:\\Users\\Umut bztp\\Desktop\\Yeni klas\u00F6r (2)\\UmutPizzam\\UmutPizzam\\Views\\Home\\Yorumlar.cshtml",
+              "RelativeToolTip": "UmutPizzam\\Views\\Home\\Yorumlar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T18:19:50.885Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

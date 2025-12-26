@@ -1,0 +1,52 @@
+﻿@model UmutPizzam.DataModel.Class1
+@{
+    ViewBag.Title = "Iletisim";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<div class="container my-5">
+    <div class="row">
+        <div class="col-md-6 mb-4 mb-md-0">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1684.3973179426052!2d30.303433052474176!3d37.94893292491706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c5da8ed991ae47%3A0xb8656dcdeaa06117!2sIsparta%20Uygulamal%C4%B1%20Bilimler%20%C3%9Cniversitesi%20Ke%C3%A7iborlu%20Meslek%20Y%C3%BCksek%20Okulu!5e0!3m2!1str!2str!4v1748132880171!5m2!1str!2str"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+        <div class="col-md-6">
+            <form action="/Home/Iletisim" method="post" class="p-4 border rounded shadow bg-light">
+                <div class="mb-3">
+                    <label class="form-label">Menu :</label>
+
+                    <select class="form-select" name="menu">
+                        <option disabled selected>Menu Seciniz.</option>
+                        @foreach (var item in Model.Menulers)
+                        {
+                            if (item.AktifMi == true)
+                            {
+                                <option>@item.Ad</option>
+                            }
+                        }
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Kullanici Adi :</label>
+                    <input type="text" name="kAd" maxlength="100" class="form-control" required />
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Email :</label>
+                    <input type="email" name="kEmail" maxlength="150" class="form-control" required />
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Yorum :</label>
+                    <input type="text" name="kYorum" maxlength="500" class="form-control" />
+                </div>
+
+                <input type="submit" name="YorumYap" value="Gonder" class="btn btn-primary w-100">
+            </form>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,37 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Panel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+</head>
+<body>
+
+    <div class="w3-sidebar w3-light-grey w3-bar-block" style="width:18%">
+        <h3 class="w3-bar-item" style="color:red">@Session["KullaniciAdi"]</h3>
+        <a href="/Home/AdminSayfa" class="w3-bar-item w3-button">Kategori Islemleri</a>
+        <a href="/Home/AdminSayfa1" class="w3-bar-item w3-button">Menu Islemleri</a>
+        <a href="/Home/AdminSayfa2" class="w3-bar-item w3-button">Yorum Islemleri</a>
+        <a href="/Admin/Cikis" class="w3-bar-item w3-button w3-red" onclick="return confirm('Cikis yapmak istediginize emin misiniz?');">Cikis Yap</a>
+
+    </div>
+
+    <div style="margin-left:18%">
+
+        <div class="w3-container w3-teal">
+            <h1>UmutPizzam Admin Panel</h1>
+        </div>
+
+        <div class="w3-container">
+            @RenderBody()
+        </div>
+
+    </div>
+
+</body>
+</html>
